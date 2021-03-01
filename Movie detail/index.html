@@ -1,0 +1,328 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Movie Detail</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Mulish&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+</head>
+<body>
+  <!-- navbar -->
+    <nav class="navbar navbar-expand-lg navbar-light">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#"><img src="/Movie detail/image/tickitzlogo.png" alt=""></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Movies</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Cinemas</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Buy tickets</a>
+              </li>
+            </ul>
+            <ul class="navbar-nav ml-auto mb2 mb-lg-0 navbar-right">
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      location
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                      <li><a class="dropdown-item" href="#">Action</a></li>
+                      <li><a class="dropdown-item" href="#">Another action</a></li>
+                      <li><hr class="dropdown-divider"></li>
+                      <li><a class="dropdown-item" href="#">Something else here</a></li>
+                    </ul>
+                  </li>
+                  <li class="nav-item">
+                    <form class="d-flex" action="">
+                      <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                        <button class="btn btn-sm btn-outline-secondary" type="button" id="search"><img src="/Movie detail/image/button search.png" alt=""></button>
+                    </form>  
+                  </li>
+                  <li class="nav-item">
+                    <button class="btn btn-sm btn-outline-secondary" type="button" id="profile"><img src="/Movie detail/image/profil.png" alt=""></button>
+                  </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+
+      <main class="cont">
+        <div class="section flex">
+          <div class="border image mgrl-1">
+            <img src="/Movie detail/image/spidermandesc.png" alt="">
+          </div>
+          <div class="descript flex-col mgrl-1">
+            <div class="desc-tittle">
+              <h3>Spideer-Man:Homecoming</h3>
+              <p>Adventure, Acion, Sci-fi</p>
+            </div>
+            <div class="desc-detail grid-2 border-bot">
+              <div>
+                <p class="detail">Release Date</p>
+                <p class="desc">June 28,2017</p>
+              </div>
+              <div>
+                <p class="detail">Directed by</p>
+                <p class="desc">Jon Watss</p>
+              </div>
+              <div>
+                <p class="detail">Duration</p>
+                <p class="desc">2 hours 13 minutes</p>
+              </div>
+              <div>
+                <p class="detail">Casts</p>
+                <p class="desc">Tom Holland, Michael Keaton, Robert DowneyJr..,...,</p>
+              </div>
+            </div>
+            <div class="desc-synopsis">
+              <h4>Synopsis</h4>
+              <p>Thrilled by his experience with the Avengers, Peter returns home, where he lives with his Aunt May, under the watchful eye of his new mentor Tony Stark, Peter tries to fall back into his normal daily routine - distracted by thoughts of proving himself to be more than just your friendly neighborhood Spider-Man - but when the Vulture emerges as a new villain, everything that Peter holds most important will be threatened. </p>
+            </div>
+          </div>
+        </div>
+        <div class="section flex-col bg-grey">
+          <div class="line"><h4>Showtimes and Tickets</h4></div>
+          <div class="line flex center">
+            <div class="dropdown">
+              <button class="btn dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+                <img src="/Movie detail/image/calendar.png" alt="">
+                21/07/20
+              </button>
+              <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                <li><a class="dropdown-item" href="#">Action</a></li>
+                <li><a class="dropdown-item" href="#">Another action</a></li>
+                <li><a class="dropdown-item" href="#">Something else here</a></li>
+              </ul>
+            </div>
+            <div class="dropdown">
+              <button class="btn dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+                <img src="/Movie detail/image/location.png" alt="">
+                Purwokerto
+              </button>
+              <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                <li><a class="dropdown-item" href="#">Action</a></li>
+                <li><a class="dropdown-item" href="#">Another action</a></li>
+                <li><a class="dropdown-item" href="#">Something else here</a></li>
+              </ul>
+            </div>
+          </div>
+          <div class="line grid-3">
+            <div class="card flex-col">
+              <div class="card-line flex">
+                <div class="card-img grow-1"><img src="/Movie detail/image/logo/ebuid.png" alt=""></div>
+                <div class="card-desc grow-2">
+                  <p class="card-title">ebv.id</p>
+                  <p class="card-desc">whatever street no.12 South Purwokerto</p>
+                </div>
+              </div>
+              <div class="card-line grid-4">
+                <a href="" class="card-time">08:30am</a>
+                <a href="" class="card-time">10:30am</a>
+                <a href="" class="card-time">12:00pm</a>
+                <a href="" class="card-time">02:00pm</a>
+                <a href="" class="card-time">04:30pm</a>
+                <a href="" class="card-time">07:00pm</a>
+                <a href="" class="card-time">08:30pm</a>
+              </div>
+              <div class="card-line flex sp-bt base-line">
+                <p class="price">price</p>
+                <p class="price-sum">$10.00/seat</p>
+              </div>
+              <div class="card-line flex sp-bt base-line">
+                <button>Book Now</button>
+                <a href="" class="paddingr-1">add to cart</a>
+              </div>
+            </div>
+            <div class="card flex-col dnone">
+              <div class="card-line flex">
+                <div class="card-img grow-1"><img src="/Movie detail/image/logo/cineone21.png" alt=""></div>
+                <div class="card-desc grow-2">
+                  <p class="card-title">Cineone21</p>
+                  <p class="card-desc">whatever street no.12 South Purwokerto</p>
+                </div>
+              </div>
+              <div class="card-line grid-4">
+                <a href="" class="card-time">08:30am</a>
+                <a href="" class="card-time">10:30am</a>
+                <a href="" class="card-time">12:00pm</a>
+                <a href="" class="card-time">02:00pm</a>
+                <a href="" class="card-time">04:30pm</a>
+                <a href="" class="card-time">07:00pm</a>
+                <a href="" class="card-time">08:30pm</a>
+              </div>
+              <div class="card-line flex sp-bt base-line">
+                <p class="price">price</p>
+                <p class="price-sum">$10.00/seat</p>
+              </div>
+              <div class="card-line flex sp-bt base-line">
+                <button>Book Now</button>
+                <a href="" class="paddingr-1">add to cart</a>
+              </div>
+            </div>
+            <div class="card flex-col dnone">
+              <div class="card-line flex">
+                <div class="card-img grow-1"><img src="/Movie detail/image/logo/hiflix.png" alt=""></div>
+                <div class="card-desc grow-2">
+                  <p class="card-title">hiflix Cinema</p>
+                  <p class="card-desc">whatever street no.12 South Purwokerto</p>
+                </div>
+              </div>
+              <div class="card-line grid-4">
+                <a href="" class="card-time">08:30am</a>
+                <a href="" class="card-time">10:30am</a>
+                <a href="" class="card-time">12:00pm</a>
+                <a href="" class="card-time">02:00pm</a>
+                <a href="" class="card-time">04:30pm</a>
+                <a href="" class="card-time">07:00pm</a>
+                <a href="" class="card-time">08:30pm</a>
+              </div>
+              <div class="card-line flex sp-bt base-line">
+                <p class="price">price</p>
+                <p class="price-sum">$10.00/seat</p>
+              </div>
+              <div class="card-line flex sp-bt base-line">
+                <button>Book Now</button>
+                <a href="" class="paddingr-1">add to cart</a>
+              </div>
+            </div>
+            <div class="card flex-col">
+              <div class="card-line flex">
+                <div class="card-img grow-1"><img src="/Movie detail/image/logo/ebuid.png" alt=""></div>
+                <div class="card-desc grow-2">
+                  <p class="card-title">ebv.id</p>
+                  <p class="card-desc">whatever street no.12 South Purwokerto</p>
+                </div>
+              </div>
+              <div class="card-line grid-4">
+                <a href="" class="card-time">08:30am</a>
+                <a href="" class="card-time">10:30am</a>
+                <a href="" class="card-time">12:00pm</a>
+                <a href="" class="card-time">02:00pm</a>
+                <a href="" class="card-time">04:30pm</a>
+                <a href="" class="card-time">07:00pm</a>
+                <a href="" class="card-time">08:30pm</a>
+              </div>
+              <div class="card-line flex sp-bt base-line">
+                <p class="price">price</p>
+                <p class="price-sum">$10.00/seat</p>
+              </div>
+              <div class="card-line flex sp-bt base-line">
+                <button>Book Now</button>
+                <a href="" class="paddingr-1">add to cart</a>
+              </div>
+            </div>
+            <div class="card flex-col dnone">
+              <div class="card-line flex">
+                <div class="card-img grow-1"><img src="/Movie detail/image/logo/cineone21.png" alt=""></div>
+                <div class="card-desc grow-2">
+                  <p class="card-title">Cineone21</p>
+                  <p class="card-desc">whatever street no.12 South Purwokerto</p>
+                </div>
+              </div>
+              <div class="card-line grid-4">
+                <a href="" class="card-time">08:30am</a>
+                <a href="" class="card-time">10:30am</a>
+                <a href="" class="card-time">12:00pm</a>
+                <a href="" class="card-time">02:00pm</a>
+                <a href="" class="card-time">04:30pm</a>
+                <a href="" class="card-time">07:00pm</a>
+                <a href="" class="card-time">08:30pm</a>
+              </div>
+              <div class="card-line flex sp-bt base-line">
+                <p class="price">price</p>
+                <p class="price-sum">$10.00/seat</p>
+              </div>
+              <div class="card-line flex sp-bt base-line">
+                <button>Book Now</button>
+                <a href="" class="paddingr-1">add to cart</a>
+              </div>
+            </div>
+            <div class="card flex-col dnone">
+              <div class="card-line flex">
+                <div class="card-img grow-1"><img src="/Movie detail/image/logo/hiflix.png" alt=""></div>
+                <div class="card-desc grow-2">
+                  <p class="card-title">hiflix Cinema</p>
+                  <p class="card-desc">whatever street no.12 South Purwokerto</p>
+                </div>
+              </div>
+              <div class="card-line grid-4">
+                <a href="" class="card-time">08:30am</a>
+                <a href="" class="card-time">10:30am</a>
+                <a href="" class="card-time">12:00pm</a>
+                <a href="" class="card-time">02:00pm</a>
+                <a href="" class="card-time">04:30pm</a>
+                <a href="" class="card-time">07:00pm</a>
+                <a href="" class="card-time">08:30pm</a>
+              </div>
+              <div class="card-line flex sp-bt base-line">
+                <p class="price">price</p>
+                <p class="price-sum">$10.00/seat</p>
+              </div>
+              <div class="card-line flex sp-bt base-line">
+                <button>Book Now</button>
+                <a href="" class="paddingr-1">add to cart</a>
+              </div>
+            </div>
+            
+          </div>
+          <div class="line flex mgtb-2 line-2">
+            <div class="line-lit grow-3"><hr></div>
+            <div class="line-lit grow-1"><a href="">view more</a></div>
+            <div class="line-lit grow-3"><hr></div>
+          </div>
+        </div>
+      </main>
+      <footer class="footer"> 
+        <div class="foot-logo">
+            <img src="/Home page/image/tickitzlogo.png" alt="">
+            <p>Stop waiting in line. Buy tickets<br> conveniently, watch movie quietly.</p>
+        </div>
+        <div class="foot-explore">
+            <h4>Explore</h4>
+            <p>Cinemas</p>
+            <p>Movies List</p>
+            <p>My Ticket</p>
+            <p>Notification</p>
+        </div>
+        <div class="foot-sponsor">
+            <h4>Our Sponsor</h4>
+            <img src="/Home page/image/ebuid.png" alt="">
+            <img src="/Home page/image/cineone21.png" alt="">
+            <img src="/Home page/image/hiflix.png" alt="">
+        </div>
+        <div class="foot-social">
+            <h4>Follow Us</h4>
+            <div class="foot-social-med">
+                <img src="/Home page/image/iconfb.png" alt="iconfb">
+                <span class="icon-text"><a href="">Tickitz Cinema.id</a></span>
+            </div>
+            <div class="foot-social-med">
+                <img src="/Home page/image/igicon.png" alt="iconig">
+                <span class="icon-text"><a href="">tickitz.id</a></span>
+            </div>
+            <div class="foot-social-med">
+                <img src="/Home page/image/icontwitter.png" alt="icontwitter">
+                <span class="icon-text"><a href="">tickitz.id</a></span>    
+            </div>
+            <div class="foot-social-med">
+                <img src="/Home page/image/youtubeicon.png" alt="iconyoutube">
+                <span class="icon-text"><a href="">Tickitz Cinema.id</a></span>
+            </div>
+        </div>
+    </footer>
+    <div class="copyrighttext">
+        <p>© 2020 Tickitz. All Right Reserved</p>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js" integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0" crossorigin="anonymous"></script>
+</body>
+</html>

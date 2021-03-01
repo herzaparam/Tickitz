@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Payment Page</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Mulish&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#"><img src="/Movie detail/image/tickitzlogo.png" alt=""></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Movies</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Cinemas</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Buy tickets</a>
+              </li>
+            </ul>
+            <ul class="navbar-nav ml-auto mb2 mb-lg-0 navbar-right">
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      location
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                      <li><a class="dropdown-item" href="#">Action</a></li>
+                      <li><a class="dropdown-item" href="#">Another action</a></li>
+                      <li><hr class="dropdown-divider"></li>
+                      <li><a class="dropdown-item" href="#">Something else here</a></li>
+                    </ul>
+                  </li>
+                  <li class="nav-item">
+                    <form class="d-flex" action="">
+                      <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                        <button class="btn btn-sm btn-outline-secondary" type="button" id="search"><img src="/Movie detail/image/button search.png" alt=""></button>
+                    </form>  
+                  </li>
+                  <li class="nav-item">
+                    <button class="btn btn-sm btn-outline-secondary" type="button" id="profile"><img src="/Movie detail/image/profil.png" alt=""></button>
+                  </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    
+    <main class="cont">
+        <div class="cont-main">
+            <section class="box1">
+                <h4>Payment Info</h4>
+                <div class="item-info-cont">
+                    <div class="item-info-1">
+                        <p>Date & time</p>
+                        <p>Tuesday, 07 July 2020 at 02.20pm</p>
+                    </div>
+                    <div class="item-info-1">
+                        <p>Movie title</p>
+                        <p>Spider-Man:Homecoming</p>
+                    </div>
+                    <div class="item-info-1">
+                        <p>Cinema name</p>
+                        <p>CineOne21 Cinema</p>
+                    </div>
+                    <div class="item-info-1">
+                        <p>Number of tickets</p>
+                        <p>3 Pieces</p>
+                    </div>
+                    <div class="item-info">
+                        <p>Total payment</p>
+                        <p>$30,00</p>
+                    </div>
+
+                </div>
+            </section>
+            <section class="box2">
+                <h4>Choose a Payment Method</h4>
+                <div class="grid-pay">
+                    <div class="pay-method">
+                        <img src="/Payment page/image/icon/gpay-icon.png" alt="">
+                    </div>
+                    <div class="pay-method">
+                        <img src="/Payment page/image/icon/visa-icon.png" alt="">
+                    </div>
+                    <div class="pay-method">
+                        <img src="/Payment page/image/icon/gopay-icon.png" alt="">
+                    </div>
+                    <div class="pay-method">
+                        <img src="/Payment page/image/icon/paypal-icon.png" alt="">
+                    </div>
+                    <div class="pay-method">
+                        <img src="/Payment page/image/icon/dana-icon.png" alt="">
+                    </div>
+                    <div class="pay-method ">
+                        <img src="/Payment page/image/icon/bca-icon.png" alt="">
+                    </div>
+                    <div class="pay-method">
+                        <img src="/Payment page/image/icon/bri-icon.png" alt="">
+                    </div>
+                    <div class="pay-method">
+                        <img src="/Payment page/image/icon/ovo-icon.png" alt="">
+                    </div>
+                </div>
+                </section>
+            </div>
+            <div class="cont-side">
+                <h4>Personal Info</h4>
+                <div class="box3">
+                    <form action="">
+                        <label for="fname">Full name</label><br>
+                        <input type="text" id="fname" name="fname" placeholder="Jonas El Rodrigues"><br><br>
+                        <label for="email">Email</label><br>
+                        <input type="text" id="email" name="email" placeholder="jonasrodri123@gmail.com"><br><br>
+                        <label for="pnumber">Phone number</label><br>
+                        <input type="text" id="pnumber" name="pnumber" placeholder="81445687121">
+                    </form>
+                    <div class="warning">
+                        <img src="/Payment page/image/icon/warning-icon.png" alt="">
+                        <span><p>Fill your data correctly.</p></span>
+                    </div>
+
+                </div>
+            </div>
+        </main>
+        <footer class="footer"> 
+            <div class="foot-logo">
+                <img src="/Home page/image/tickitzlogo.png" alt="">
+                <p>Stop waiting in line. Buy tickets<br> conveniently, watch movie quietly.</p>
+            </div>
+            <div class="foot-explore">
+                <h4>Explore</h4>
+                <p>Cinemas</p>
+                <p>Movies List</p>
+                <p>My Ticket</p>
+                <p>Notification</p>
+            </div>
+            <div class="foot-sponsor">
+                <h4>Our Sponsor</h4>
+                <img src="/Home page/image/ebuid.png" alt="">
+                <img src="/Home page/image/cineone21.png" alt="">
+                <img src="/Home page/image/hiflix.png" alt="">
+            </div>
+            <div class="foot-social">
+                <h4>Follow Us</h4>
+                <div class="foot-social-med">
+                    <img src="/Home page/image/iconfb.png" alt="iconfb">
+                    <span class="icon-text"><a href="">Tickitz Cinema.id</a></span>
+                </div>
+                <div class="foot-social-med">
+                    <img src="/Home page/image/igicon.png" alt="iconig">
+                    <span class="icon-text"><a href="">tickitz.id</a></span>
+                </div>
+                <div class="foot-social-med">
+                    <img src="/Home page/image/icontwitter.png" alt="icontwitter">
+                    <span class="icon-text"><a href="">tickitz.id</a></span>    
+                </div>
+                <div class="foot-social-med">
+                    <img src="/Home page/image/youtubeicon.png" alt="iconyoutube">
+                    <span class="icon-text"><a href="">Tickitz Cinema.id</a></span>
+                </div>
+            </div>
+        </footer>
+        <div class="copyrighttext">
+            <p>© 2020 Tickitz. All Right Reserved</p>
+        </div>
+    </div>
+      
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js" integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0" crossorigin="anonymous"></script>     
+</body>
+</html>
